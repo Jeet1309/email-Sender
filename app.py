@@ -159,6 +159,7 @@ with st.sidebar:
 col1, col2 = st.columns([3, 1])
 with col1:
     sheet_url = st.text_input("📊 Google Sheet URL",
+                              value=secret("SHEET_URL"),
                               placeholder="https://docs.google.com/spreadsheets/d/...")
 with col2:
     st.markdown("<br>", unsafe_allow_html=True)
