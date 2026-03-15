@@ -17,7 +17,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 h1, h2 { font-family: 'Playfair Display', serif !important; color: #3d1a4f !important; }
 .stTextArea textarea {
     font-family: 'Playfair Display', serif !important; font-style: italic;
-    font-size: 1.05rem; line-height: 1.8; background: #fffaf7;
+    font-size: 1.05rem; line-height: 1.8; background: #2d1b4e;
     border: 1px solid #e8c8d8; border-radius: 12px;
 }
 .stTextInput input { border-radius: 10px; border: 1px solid #e0b8cc; }
