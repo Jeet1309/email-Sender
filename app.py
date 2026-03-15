@@ -70,8 +70,8 @@ def get_recipients(sheet_url: str, creds_dict: dict) -> list[dict]:
     if not all_values:
         raise ValueError("Sheet is empty.")
     headers   = [h.strip().lower() for h in all_values[0]]
-    name_col  = next((i for i,h in enumerate(headers) if h in ("name","full name","fullname","recipient")), None)
-    email_col = next((i for i,h in enumerate(headers) if h in ("email","email address","e-mail","mail")), None)
+    name_col  = next((i for i,h in enumerate(headers) if h in ("name","full name","fullname","recipient","What’s your name?",'What’s your name? ')), None)
+    email_col = next((i for i,h in enumerate(headers) if h in ("email","email address","e-mail","mail",'Where should I send you my poems? (Email?) ')), None)
     if email_col is None:
         raise ValueError(f"No Email column found. Headers seen: {all_values[0]}")
     recipients = []
