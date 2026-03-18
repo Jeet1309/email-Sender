@@ -94,13 +94,13 @@ def build_message(sender: str, to: str, subject: str, body: str) -> MIMEMultipar
       <table width="100%"><tr><td align="center" style="padding:40px 20px;">
         <table width="600" style="background:#fff;border-radius:16px;padding:40px;
                font-family:Georgia,serif;box-shadow:0 4px 24px rgba(0,0,0,.08);">
-          <tr><td style="text-align:center;padding-bottom:20px;font-size:2rem;">🌸</td></tr>
+          <tr><td style="text-align:center;padding-bottom:20px;font-size:1.2rem;">🌻</td></tr>
           <tr><td style="color:#3d1a4f;font-size:1.4rem;font-weight:bold;
                          text-align:center;padding-bottom:24px;">{subject}</td></tr>
           <tr><td style="color:#333;font-size:1.05rem;line-height:2;
                          white-space:pre-wrap;text-align:left;">{body}</td></tr>
           <tr><td style="padding-top:28px;text-align:center;color:#bbb;font-size:.8rem;">
-            from my thoughts to your 🌸 </td></tr>
+            from my thoughts to your  </td></tr>
         </table>
       </td></tr></table>
     </body></html>"""
