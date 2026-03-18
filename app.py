@@ -98,7 +98,7 @@ def build_message(sender: str, to: str, subject: str, body: str) -> MIMEMultipar
           <tr><td style="color:#3d1a4f;font-size:1.4rem;font-weight:bold;
                          text-align:center;padding-bottom:24px;">{subject}</td></tr>
           <tr><td style="color:#333;font-size:1.05rem;line-height:2;
-                         white-space:pre-wrap;text-align:center;">{body}</td></tr>
+                         white-space:pre-wrap;text-align:left;">{body}</td></tr>
           <tr><td style="padding-top:28px;text-align:center;color:#bbb;font-size:.8rem;">
             from my thoughts to your 🌸 </td></tr>
         </table>
