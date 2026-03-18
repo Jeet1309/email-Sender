@@ -100,7 +100,7 @@ def build_message(sender: str, to: str, subject: str, body: str) -> MIMEMultipar
           <tr><td style="color:#333;font-size:1.05rem;line-height:2;
                          white-space:pre-wrap;text-align:center;">{body}</td></tr>
           <tr><td style="padding-top:28px;text-align:center;color:#bbb;font-size:.8rem;">
-            Sent with love 🌸 | Poetry Month</td></tr>
+            from my thoughts to your 🌸 </td></tr>
         </table>
       </td></tr></table>
     </body></html>"""
